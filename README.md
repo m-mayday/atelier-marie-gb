@@ -1,7 +1,14 @@
 # Atelier Marie GB Translation
 A full translation of Atelier Marie GB for the Game Boy Color. Enjoy!
 
-**V1.1:** fixed some typos and incorrect line breaks.
+
+## Changelog
+
+* **V1.1:** Fixed some typos and incorrect line breaks. **Reuploaded on September 5th with a quick fix (there was half an 'n' somewhere but I'm not saying where 😜)**
+* **V1.1 - Double Speed:** Added in reference to https://github.com/m-mayday/atelier-marie-gb/issues/3. This enables Double Speed mode, which makes transitions and text rendering faster. A few things to keep in mind about this version:
+  * I have not tested it thoroughly. I only tested the first few minutes of the game. The only thing I noticed is a slight difference in audio when navigating menus (like changing item 'tabs'), not a big deal IMO.
+  * While it should be fine for the most part, I won't fix any artifacts you may encounter, since the game wasn't designed with this mode in mind.
+  * **If playing on real hardware, be mindful that this increases power consumption. I'm not responsible for any damage this could cause to your console; if you don't want to risk it, stick to the regular version.**
 
 # Important!
 **I've seen some issues when using mGBA (even the retroarch core), like certain text boxes/lines not showing up when checking out items or recipes. This happens with the original game as well, so please use a different emulator!**
